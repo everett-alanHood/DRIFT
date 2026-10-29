@@ -218,3 +218,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DRIFT Additional Rules
+data/
+corpora/
+CORAAL/
+coraal/
+
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.aiff
+*.aif
+*.sph
+*.opus
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+lora_adapters/
+
+dvm_cache/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
