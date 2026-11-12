@@ -1,0 +1,17 @@
+# DRIFT runtime dependencies
+# Install everything (and make `drift` importable) from the repo root with:
+#     pip install -e ".[dev]"
+# pyproject.toml reads this file, so add new libraries here only.
+
+# --- Stage 1: Detect -------------------------------------------------
+numpy>=1.26
+scipy>=1.11
+librosa>=0.10       # LPC, STFT, resampling
+soundfile>=0.12     # streaming WAV reads
+pytest>=7.4         # unit tests
+
+# --- Stage 3: Learn (uncomment when we get there) ---------------------
+# torch>=2.3
+# transformers>=4.44
+# peft>=0.12        # LoRA fallback
+# jiwer>=3.0        # WER
